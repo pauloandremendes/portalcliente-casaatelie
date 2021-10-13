@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Contato - Casa Atêlie</title>
+
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <div class="caixa">
+                <h1><img src="img_produto/logo1.jpg" alt="Logo Casa Ateliê."></h1>
+        
+                <nav>
+                    <ul class="navegacao">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="produtos.html">Produtos</a></li>
+                        <li><a href="contato.html">Contato</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <main class="conteudo-form">
+            <form action="">
+                <label for="nome_sobrenome" class="label-personalizar">Nome Completo</label>
+                <input type="text" id="nome_sobrenome" class="input-padrao" required>
+
+                <label for="email" class="label-personalizar">E-mail</label>
+                <input type="email" id="email" class="input-padrao" required placeholder="seu_email@dominio.com">
+
+                <label for="telefone" class="label-personalizar">Telefone</label>
+                <input type="tel" id="telefone" class="input-padrao" required placeholder="(99) 99999-9999">
+
+                <label for="mensagem" class="label-personalizar">Mensagem</label>
+                <textarea id="mensagem" cols="63" rows="10"></textarea>
+
+                <fieldset>
+                    <legend class="legend-personalizar">Como prefere o nosso contato?</legend>
+
+                    <label for="radio-email" class="label-personalizar"> <input type="radio" name="contato" value="email" id="radio-email" required>E-mail</label>
+                   
+                    <label for="radio-whatsapp" class="label-personalizar"><input type="radio" name="contato" value="whatsapp" id="radio-whatsapp" required checked>WhatsApp</label>
+                        
+                    <label for="radio-telefone" class="label-personalizar"><input type="radio" name="contato" value="telefone" id="radio-telefone" required>Telefone</label>
+                </fieldset>
+                
+
+                <fieldset>    
+                    <legend class="legend-personalizar">Qual horário prefere ser atendido?</legend>
+                    <select>
+                        <option>Manhã</option>
+                        <option>Tarde</option>
+                        <option>Noite</option>
+                    </select>
+                </fieldset>
+                <label class="checkbox" class="label-personalizar"><input type="checkbox" checked class="customizarlabel">Gostaria de receber nossas novidades por e-mail?</label>
+
+                <input type="submit" value="Enviar Formulário" class="enviar">
+            </form>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Dia</th>
+                        <th>Horário</th>
+                    </tr>
+                </thead>
+                <tbody>    
+                    <tr>
+                        <td>Segunda a Sexta</td>
+                        <td>09h às 17h</td>
+                    </tr>
+                </tbody>        
+            </table>
+        </main>
+
+        <footer>
+            <img src="img_produto/logo1.jpg" alt="Logo Casa Ateliê.">
+            <p class="copyright">&copy; Copyright Casa Atêlie - 2021</p>
+        </footer>
+    </body>
+</html>
