@@ -1,5 +1,5 @@
 header{
-    background: #e2e2cdab;
+    background: #eee4c8ab;
     padding: 20px;
 }
 
@@ -84,7 +84,7 @@ nav a:hover{
 
 footer{
     text-align: center;
-    background: #e2e2cdab;
+    background: #eee4c8ab;
     padding: 40px;
 }
 
@@ -109,6 +109,16 @@ form label, form legend {
     margin: 0 0 20px;   
     padding: 10px 25px;
     width: 50%;
+    border: none;
+    border-radius: 5px;
+    width: 50% !important;
+    margin: auto;
+    text-align: center;
+}
+
+#mensagem {
+        border: none;
+    border-radius: 5px;
 }
 
 .checkbox {
@@ -116,18 +126,35 @@ form label, form legend {
 }
 
 .enviar {
-    width: 40%;
-    padding: 15px 0;
+    width: 20%;
+    padding: 8px 0;
     background: orange;
     color: white;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 13px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
 }
 
 .enviar:hover {
+    background: darkorange;
+    transform: scale(1.1);
+}
+
+.enviar-compra {
+    width: 30%;
+    padding: 15px 0;
+    background: orange;
+    color: white;
+    font-weight: bold;
+    font-size: 13px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.enviar-compra:hover {
     background: darkorange;
     transform: scale(1.1);
 }
@@ -151,16 +178,22 @@ td, th {
     color: #7a231d;
 }
 
+.label-personalizar-especial {
+    font-size: small;
+    color: #7a231d;
+}
+
 .customizarlabel {
     color: #7a231d;
 }
 
 .titulo-principal {
     text-align: center;
-    font-size: 2em;
+    font-size: 3em;
     color: #7a231d;
     margin: 0 0 1em;
     clear: left;
+    font-family: 'Dancing Script', cursive;
 }
 
 .principal p {
@@ -194,9 +227,20 @@ body {
     font-family: 'Montserrat', sans-serif;      
 }
 
+.quemsomos-casa {
+    padding: 3em 0;
+    background: linear-gradient(#fefefe, #eee4c8ab);
+}
+
+.essencia-casa {
+    padding: 0 13em 2em;
+    text-align: justify;
+    color: #7a231d;
+}
+
 .mapa {
     padding: 3em 0;
-    background: linear-gradient(#fefefe, #e2e2cdab);
+    background: linear-gradient(#fefefe, #eee4c8ab);
 }
 
 .mapa p {
@@ -225,10 +269,20 @@ body {
 }
 
 .conteudofundadora {
-    width: 40%;
+    width: 60%;
     display: inline-block;
     vertical-align: top;
-    line-height: 1.5%;
+    padding: 0 0 2em;
+    color: #7a231d;
+    text-align: justify;
+    }
+
+.conteudofundadoraespecial {
+    width: 60%;
+    vertical-align: top;
+    padding: 0 19em 2em;
+    color: #7a231d;
+    text-align: justify;
 }
 
 .principal {
@@ -239,8 +293,8 @@ body {
 }
 
 .fundadora {
-    padding: 3em 0;
-    background: #e2e2cdab;
+    padding: 3em 8em;
+    background: #eee4c8ab;
 }
 
 .mapa-conteudo {
@@ -263,6 +317,30 @@ body {
     }
 }
 
-.conteudo-form {
+.conteudo-form, .conteudo-formulario {
     padding: 3em;
+    background-image: url(img_produto/maos.jpg);
+    text-align: center;
+}
+
+.tabela {
+    width: 25% !important;
+    padding-left: 3em;
+    margin: auto;
+}
+
+.conteudo-form-one {
+    padding: 3em;
+    background-image: url(img_produto/maos-one.jpg);
+}
+
+.nossaHistoria {
+    text-align: justify;
+    font-size: 1em;
+    font-style: italic;
+}
+
+.quemsomos-casa {
+    text-align: center;
+    background: #fefefe;
 }
