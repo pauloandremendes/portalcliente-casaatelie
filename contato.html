@@ -25,7 +25,7 @@
         </header>
 
         <main class="conteudo-form">
-            <form class="conteudo-formulario">
+            <form class="conteudo-formulario" action="http://localhost:8080/novo-contato" method="POST">
 
                 <fieldset>
                     <label for="nome_sobrenome" class="label-personalizar">Nome</label>
@@ -57,11 +57,11 @@
 
                     <legend class="legend-personalizar">Qual horário prefere ser atendido?</legend>
                     
-                    <label for="radio-manha" class="label-personalizar-especial"><input type="radio" name="manha" value="manha" id="radio-manha" required>Manhã</label>
+                    <label for="radio-manha" class="label-personalizar-especial"><input type="radio" name="horario" value="manha" id="radio-manha" required>Manhã</label>
                    
-                    <label for="radio-tarde" class="label-personalizar-especial"><input type="radio" name="tarde" value="tarde" id="radio-tarde" required>Tarde</label>
+                    <label for="radio-tarde" class="label-personalizar-especial"><input type="radio" name="horario" value="tarde" id="radio-tarde" required>Tarde</label>
                         
-                    <label for="radio-noite" class="label-personalizar-especial"><input type="radio" name="noite" value="noite" id="radio-noite" required>Noite</label>
+                    <label for="radio-noite" class="label-personalizar-especial"><input type="radio" name="horario" value="noite" id="radio-noite" required>Noite</label>
                
                 </fieldset><br>
               
